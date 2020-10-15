@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Event List</h2>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Event Title</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#events}}
+      <tr>
+        <td>{{ title }}</td>
+        <td>{{ description }}</td>
+      </tr>
+    {{/events}}
+    </tbody>
+  </table>
+</div>
